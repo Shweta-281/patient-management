@@ -23,7 +23,6 @@ This project demonstrates **enterprise-grade backend engineering**, **service-to
 
 ## 🏗️ System Architecture
 
-```text
 Client
   ↓
 API Gateway
@@ -40,11 +39,9 @@ AWS Services (LocalStack)
 - S3
 - ELB
 
----
 
 ## 📂 Repository Structure
 
-```text
 patient-management/
 ├── api-gateway/                 # Central API Gateway
 ├── auth-service/                # Authentication & authorization service
@@ -110,3 +107,17 @@ patient-management/
 - Generates reports and analytics
 - Provides insights into patient and billing data
 
+# ⚙️ Run Locally (AWS via LocalStack)
+
+## Prerequisites
+- Java 17+
+- Maven
+- Docker & Docker Compose
+- AWS CLI
+
+---
+
+## 1️⃣ Start LocalStack & Infrastructure
+
+```bash
+docker compose up -d
