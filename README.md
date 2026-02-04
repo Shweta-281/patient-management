@@ -23,6 +23,8 @@ This project demonstrates **enterprise-grade backend engineering**, **service-to
 
 ## 🏗️ System Architecture
 
+```text
+
 Client
   ↓
 API Gateway
@@ -38,9 +40,11 @@ AWS Services (LocalStack)
 - RDS (PostgreSQL)
 - S3
 - ELB
+```
 
+# 📂 Repository Structure
 
-## 📂 Repository Structure
+```text
 
 patient-management/
 ├── api-gateway/                 # Central API Gateway
@@ -55,6 +59,7 @@ patient-management/
 ├── infrastructure/              # AWS + LocalStack + CloudFormation
 ├── .gitignore
 └── README.md
+````
 
 # 🛠️ Tech Stack
 
